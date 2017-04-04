@@ -1,0 +1,31 @@
+{
+  "name": "fcc-tictactoe",
+  "version": "1.0.0",
+  "description": "Free Code Camp Tic Tac Toe challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel babel -d js"
+  },
+  "keywords": [
+    "react",
+    "js",
+    "fcc"
+  ],
+  "author": "Miguel Carvajal",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-preset-env": "^1.3.2",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-1": "^6.22.0",
+    "webpack": "^2.3.2"
+  },
+  "dependencies": {
+    "material-ui": "^0.17.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-tap-event-plugin": "^2.0.1"
+  }
+}
